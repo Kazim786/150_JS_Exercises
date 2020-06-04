@@ -8,7 +8,7 @@ if(hour >= 12){
   hour = hour - 12
 
 
-console.log("Today is: " + dayList[d.getDay()] + " " + hour + ":" + time + " pm");
+alert("Today is: " + dayList[d.getDay()] + " " + hour + ":" + time + " pm");
 }
 var body = document.querySelector('body');
 
