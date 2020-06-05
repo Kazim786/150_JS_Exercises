@@ -13,4 +13,4 @@ console.log(arr)
 
 // console.log(rearrangement(arr, newArr))
 
-console.log(arr.reverse())
+console.log(arr.reverse().join(""))
