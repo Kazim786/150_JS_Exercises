@@ -14,12 +14,25 @@ function daysLeft(){
     var today = month + '/' + day;
 
     if(today !== "11/25"){
-        const leftDays = ((11 - month) * 30.42) + 25 - day ;
+        const leftDays = ((11 - month) * 30.42) + 25 - day ;2 ;
 
-
-        console.log(`These are the number of days left until Christmas ${leftDays}`)
+        alert(`These are the number of days left until Christmas ${leftDays}`);
     }
 }
 
-daysLeft()
+// daysLeft()
+
+var button = document.createElement('button')
+
+button.innerText = "Click to find out When Christmas is!"
+
+button.style.color = "red"
+
+
+button.addEventListener("click", daysLeft)
+
+var body = document.querySelector('body');
+
+body.appendChild(button);
+
 
