@@ -18,6 +18,9 @@ function daysLeft(){
 
         alert(`These are the number of days left until Christmas ${leftDays}`);
     }
+    else {
+        alert("Today is Christmas! Dont make the naughty List :D")
+    }
 }
 
 // daysLeft()
