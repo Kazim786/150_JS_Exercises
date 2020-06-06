@@ -14,7 +14,7 @@ function daysLeft(){
     var today = month + '/' + day;
 
     if(today !== "11/25"){
-        const leftDays = ((11 - month) * 30.42) + 25 - day ;2 ;
+        const leftDays = ((11 - month) * 30.42) + 25 - day;
 
         alert(`These are the number of days left until Christmas ${leftDays}`);
     }
