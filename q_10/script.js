@@ -3,9 +3,18 @@ const divideButton = document.getElementById('divide');
 const firstNum = document.getElementById('firstNum')
 const secondNum = document.getElementById('secondNum') 
 
-function theMath(first, second){
-    if(button)
 
+
+function multiplyNum(first, second){
+    const sum = first * second;
+    return alert(sum);
 }
 
-button.addEventListener('click')
+function divideNum(first, second){
+    const sum = first/second;
+    return alert(sum);
+}
+
+multButton.addEventListener('click', multiplyNum)
+
+divideButton.addEventListener('click', divideNum)
