@@ -22,18 +22,18 @@
 
 const multButton = document.getElementById('multiply');
 const divideButton = document.getElementById('divide');
-const firstNum = document.getElementById('firstNum')
-const secondNum = document.getElementById('secondNum') 
+const firstNum = document.getElementById('firstNum').value
+const secondNum = document.getElementById('secondNum').value 
 
 
 
-function multiplyNum(){
-    const sum = firstNum.value * secondNum.value;
+function multiplyNum(firstNum, secondNum){
+    const sum = firstNum * secondNum;
     return alert(sum);
 }
 
-function divideNum(){
-    const sum = firstNum.value/secondNum.value;
+function divideNum(firstNum, secondNum){
+    const sum = firstNum/secondNum
     return alert(sum);
 }
 multButton.addEventListener('click', multiplyNum)
