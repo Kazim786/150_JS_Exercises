@@ -29,12 +29,14 @@ const secondNum = document.getElementById('secondNum').value
 
 function multiplyNum(firstNum, secondNum){
     const sum = firstNum * secondNum;
-    return alert(sum);
+    const result = document.getElementById('result');
+    return result.innerHTML = sum
 }
 
 function divideNum(firstNum, secondNum){
     const sum = firstNum/secondNum
-    return alert(sum);
+    const result = document.getElementById('result');
+    return result.innerHTML = sum
 }
 multButton.addEventListener('click', multiplyNum)
 
