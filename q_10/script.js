@@ -27,16 +27,20 @@ const secondNum = document.getElementById('secondNum').value
 
 
 
-function multiplyNum(firstNum, secondNum){
+function multiplyNum(){
+    const firstNum = document.getElementById('firstNum').value
+    const secondNum = document.getElementById('secondNum').value 
     const sum = firstNum * secondNum;
     const result = document.getElementById('result');
-    return result.innerHTML = sum
+    result.innerHTML = sum
 }
 
-function divideNum(firstNum, secondNum){
+function divideNum(){
+    const firstNum = document.getElementById('firstNum').value
+    const secondNum = document.getElementById('secondNum').value 
     const sum = firstNum/secondNum
     const result = document.getElementById('result');
-    return result.innerHTML = sum
+    result.innerHTML = sum
 }
 multButton.addEventListener('click', multiplyNum)
 
